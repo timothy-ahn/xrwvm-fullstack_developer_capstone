@@ -124,3 +124,43 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.banner-img {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-img > img {
+    width: 800px;
+    margin: 20px;
+}
+
+.contact-block {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10px;
+    gap: 15px;
+}
+
+.contact-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    background: #fdfdfd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.contact-card h2 {
+    margin-top: 0;
+    color: #0056b3;
+}
+
+.contact-card a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
